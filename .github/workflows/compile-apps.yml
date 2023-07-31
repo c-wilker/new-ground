@@ -19,3 +19,6 @@ jobs:
 
     - name: Compile
       run: make compile
+      
+    - name: CI_test
+      run: make test
